@@ -1,0 +1,43 @@
+.lpd_demo1{
+    display: none;
+    margin: 30px 10px;
+    /* border: 1px red solid; */
+    line-height: 28px;
+}
+.lpd_demo1 p{
+    color: #23c8bf;
+    font-size: 16px;
+}
+.p2{
+    text-indent: 2em;
+}
+
+
+.lpd_demo2{
+    display: none;
+    text-align: center;
+}
+.lpd_demo2>p{
+    display: block;
+   /* border: 1px red solid;*/
+}
+.p3{
+    margin: 75px 0 30px;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+.p4{
+    width: 62%;
+    margin: auto;
+    font-size: 14px;
+    color: #23c8bf;
+}
+.lpd_demo2>button{
+    margin-top: 45px;
+    border-radius: 20px;
+    width: 35%;
+    height: 40px;
+    background-color: #23c8bf;
+    color: white;
+}

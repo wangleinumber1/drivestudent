@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="trimview" content="1.0.0">
+    <title>未命名</title>
+    <link type="text/css" rel="stylesheet" href="../../res/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="../../res/css/divingrule/showrule.css"/>
+
+</head>
+<body onLoad="loaded()">
+<!--头部-->
+<header>
+    <header>
+        <div class="h_left" id="backBtn"><img src="../../res/img/back.png"/></div>
+        <div class="h_center">机动车驾驶技巧</div>
+        <div class="h_right"></div>
+    </header>
+</header>
+<!--内容部分-->
+<section class="main_login">
+<div id="main1">
+<div id="scroller">
+<p><strong>一、开车技巧</strong></p>
+<p style="text-indent:48px;">行车安全的基础是技术和经验。</p>
+<p style="text-indent:48px;">1、上车先看车</p>
+<p style="text-indent:48px;">2、点火步骤</p>
+<p style="text-indent:48px;">3、开车先热车</p>
+<p style="text-indent:48px;">4、一档起步</p>
+<p style="text-indent:48px;">5、平稳换档</p>
+<p style="text-indent:48px;">6、踩准脚刹</p>
+<p style="text-indent:48px;">7、带档刹车</p>
+<p style="text-indent:48px;">8、刹车先看后视镜</p>
+<p style="text-indent:48px;">9、时刻掌握脚刹状况</p>
+<p style="text-indent:48px;">10、公交车站有危险</p>
+<p style="text-indent:48px;">11、前车突然让路有危险</p>
+<p style="text-indent:48px;">12、不要靠近路边停着的汽车</p>
+<p style="text-indent:48px;">13、向路的中间靠</p>
+<p style="text-indent:48px;">14、超车减档提速</p>
+<p style="text-indent:48px;">15、不能超车的5个地方</p>
+<p style="text-indent:48px;">16、不要跟车的4个地方</p>
+<p style="text-indent:48px;">17、过路口一定要减速观察</p>
+<p style="text-indent:48px;">18、路口左转绕大弯</p>
+<p style="text-indent:48px;">19、过弯道规则</p>
+<p style="text-indent:48px;">20、谨慎鸣笛</p>
+<p style="text-indent:48px;">21、看不见就鸣笛</p>
+<p style="text-indent:48px;">22、高速紧急，只踩刹车</p>
+<p style="text-indent:48px;">23、高速公路的积水</p>
+<p style="text-indent:48px;">24、下坡带档</p>
+<p style="text-indent:48px;">25、延时熄火</p>
+<p style="text-indent:48px;">26、方向盘锁死</p>
+<p style="text-indent:48px;">27、拉高速，让高温烧掉积碳</p>
+<p><strong>二、停车技巧</strong></p>
+<p style="text-indent:48px;">停车有技术，也有艺术。</p>
+<p style="text-indent:48px;">28、停车的基本原则</p>
+<p style="text-indent:48px;">29、等信号停车</p>
+<p style="text-indent:48px;">30、路边暂停要打转向灯</p>
+<p style="text-indent:48px;">31、路边起步要打转向灯</p>
+<p style="text-indent:48px;">32、路上暂停别跟前车太近</p>
+<p style="text-indent:48px;">33、车头朝外</p>
+<p style="text-indent:48px;">34、车停明处</p>
+<p style="text-indent:48px;">35、高楼窗下不安全</p>
+<p style="text-indent:48px;">36、车里别放什么东西</p>
+<p style="text-indent:48px;">37、路边顺向停车技巧</p>
+<p style="text-indent:48px;">38、路边横向停车技巧</p>
+<p style="text-indent:48px;">39、停车场内停车 </p>
+<p style="text-indent:48px;">40、上坡路边停车</p>
+<p style="text-indent:48px;">41、下坡路边停车</p>
+<p><strong>三、外出防范技巧</strong></p>
+<p style="text-indent:48px;">42、备份防失</p>
+<p style="text-indent:48px;">43、慎重加油</p>
+<p style="text-indent:48px;">44、慎重吃住</p>
+<p style="text-indent:48px;">45、行车防抢</p>
+<p style="text-indent:48px;">46、停车防抢</p>
+<p style="text-indent:48px;">47、停车防盗</p>
+<p style="text-indent:48px;">48、起步防抢</p>
+<p><strong>四、雨天驾驶技巧</strong></p>
+<p style="text-indent:48px;">雨天驾驶的危险主要有三点，一是雨水和泥泞使车轮打滑，二是排气管进水熄火，三是雨水使制动系统失灵。</p>
+<p style="text-indent:48px;">49、雨中制动要提前</p>
+<p style="text-indent:48px;">50、不要降低胎压</p>
+<p style="text-indent:48px;">51、地面未湿透时更容易打滑</p>
+<p style="text-indent:48px;">52、视线不清要停车</p>
+<p style="text-indent:48px;">53、打雷不下车</p>
+<p style="text-indent:48px;">54、过积水路段</p>
+<p style="text-indent:48px;">55、自动档汽车涉水技巧</p>
+<p style="text-indent:48px;">56、过泥泞地段</p>
+<p><strong>五、雪天驾驶技巧</strong></p>
+<p style="text-indent:48px;">北方寒冷冬季的驾驶困难主要有两点，一是气温低，启动困难；二是路面滑，方向和刹车易失控。气温在-20°C左右发动露天停放的电喷汽车，没有遇到过困难，但是接近-30°C，常常发动不起来，特别是电瓶电不足的时候
+</p>
+<p style="text-indent:48px;">57、上车前清霜雪</p>
+<p style="text-indent:48px;">58、严寒天气发动汽车</p>
+<p style="text-indent:48px;">59、冰雪路面起步</p>
+<p style="text-indent:48px;">60、松软雪地起步</p>
+<p style="text-indent:48px;">61、低速度</p>
+<p style="text-indent:48px;">62、缓加油</p>
+<p style="text-indent:48px;">63、不空档</p>
+<p style="text-indent:48px;">64、巧减速</p>
+<p style="text-indent:48px;">65、慢转向</p>
+<p style="text-indent:48px;">66、走沟槽</p>
+<p style="text-indent:48px;">67、保持距离</p>
+<p style="text-indent:48px;">68、打滑失控怎么办</p>
+<p><strong>六、省油技巧</strong></p>
+<p style="text-indent:48px;">69、控制最佳转速</p>
+<p style="text-indent:48px;">70、保持最佳车速</p>
+<p style="text-indent:48px;">71、控制换档转速</p>
+<p style="text-indent:48px;">72、不变道、不超车</p>
+<p style="text-indent:48px;">73、不要狠刹车</p>
+<p style="text-indent:48px;">74、走好路，走车少的路</p>
+<p style="text-indent:48px;">75、满胎压</p>
+<p style="text-indent:48px;">76、半箱油</p>
+<p><strong>七、使用车灯技巧</strong></p>
+<p style="text-indent:48px;">77、夜行照明灯（大灯)使用有技巧</p>
+<p style="text-indent:48px;">78、夜行示宽灯（小灯）使用有技巧</p>
+<p style="text-indent:48px;">79、转向灯</p>
+<p style="text-indent:48px;">80、刹车灯</p>
+<p style="text-indent:48px;">81、雾灯</p>
+<p><strong>八、自动档汽车操作要点</strong></p>
+<p style="text-indent:48px;">82、档位及功能</p>
+<p style="text-indent:48px;">P，停车档、 R，倒车档、N，空档、D，前进档的最高档、3，前进档的3档、2，前进档的2档、1，前进档的1档</p>
+<p style="text-indent:48px;">83、启动</p>
+<p style="text-indent:48px;">84、手动变换挡位的规则</p>
+<p style="text-indent:48px;">85、自动变换挡位的规则</p>
+<p style="text-indent:48px;">86、收车要点</p>
+<p><strong>九、女性开车的危险习惯</strong></p>
+<p style="text-indent:48px;">87、胸部挂饰</p>
+<p style="text-indent:48px;">88、高跟鞋</p>
+<p style="text-indent:48px;">89、毛绒玩具</p>
+<p style="text-indent:48px;">90、毛绒玩具</p>
+<p style="text-indent:48px;">91、一头长发</p>
+<p style="text-indent:48px;">92、座位离方向盘过近</p>
+<p style="text-indent:48px;">93、垫坐垫</p>
+<p style="text-indent:48px;">94、戴普通手套</p>
+<p><strong>十、自家车选用车品简介</strong></p>
+<p style="text-indent:48px;">95、防盗锁</p>
+<p style="text-indent:48px;">96、车衣</p>
+<p style="text-indent:48px;">97、充气筒</p>
+<p style="text-indent:48px;">98、家用洗车器</p>
+<p style="text-indent:48px;">99、倒车雷达</p>
+<p style="text-indent:48px;">100、车载GPS</p>
+</div></div>
+</section>
+<script type="text/javascript" src="../../js/public/jquery.js"></script>
+<script type="text/javascript" src="../../js/public/common.js"></script>
+<script type="text/javascript" src="../../js/divingrule/showrule.js"></script>
+		<script type="text/javascript" src="../../js/divingexpert/iscroll.js"></script>
+		<script type="text/javascript" src="../../js/divingexpert/conment.js"></script>
+</body>
+</html>

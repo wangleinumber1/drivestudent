@@ -1,0 +1,9 @@
+.main_login>div{
+    margin-top:20px ;
+    padding: 10px;
+    background-color: white;
+    /*font-size: 40px;*/
+}
+.main_login>div>span{
+    font-size: 40px;
+}

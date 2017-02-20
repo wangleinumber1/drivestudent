@@ -1,0 +1,157 @@
+*{
+    overflow: hidden;
+}
+body {
+	background-image: url(../../img/weather.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header {
+	background-color: transparent;
+}
+.weather-Cloud {
+	width: 100%;
+	height: 100%;
+}
+.Cloud-wt {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-top: 35%;
+	margin-left: 30%;
+}
+@media only screen and (max-height:500px ) {
+	.Cloud-wt{
+		margin-top: 20%;
+	}
+}
+@media only screen and (max-height:700px ) {
+	.Cloud-wt{
+		margin-top: 50%;
+	}
+}
+.Cloud-wt>img {
+	width: 95%;
+	margin-top: 5%;
+}
+
+.weather-auther {
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	bottom: 0px;
+}
+.auther-one {
+	width: 100%;
+	height: 80px;
+	background-image: url(../../img/auther-one.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40%;
+}
+.auther-one>li {
+	width: auto;
+	float: left;
+	height: 100%;
+	color: #FEFEFC;
+}
+.auther-one>li:first-child {
+	width: 39%;
+}
+.auther-one>li:not(:first-child) {
+	width: 29%;
+}
+.now {
+	float: left;
+	width: 90%;
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+	margin-left: 5%;
+}
+.Symbol {
+	float: left;
+	height: 55px;
+	line-height: 35px;
+	width: 40px;
+	text-align: center;
+	font-size: 5em;
+}
+.tweather-tday {
+	width: 45%;
+	float: left;
+	height: 60px;
+	text-align: left;
+	line-height: 35px;
+	font-size: 4em;
+}
+.next-day {
+	float: left;
+	width: 90%;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin-left: 5%;
+}
+.next-tq {
+	float: left;
+	width: 100%;
+	height: 35px;
+	background-image: url(../../img/yjx1.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 40%;
+}
+/*.next-tq>img {
+	width: 10px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 1px;
+}
+.next-tq>img:first-child {
+	margin-left: 25px;
+}*/
+.next-ys {
+	float: left;
+	width: 100%;
+	height: 18px;
+	text-align: center;
+	line-height: 15px;
+}
+.auther-two {
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	background-image: url(../../img/auther-two.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.auther-two>li{
+	width: 20%;
+	height: 50px;
+	float: left;
+}
+.auther-two>li>img{
+	width: 25px;
+	margin: 12.5px 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

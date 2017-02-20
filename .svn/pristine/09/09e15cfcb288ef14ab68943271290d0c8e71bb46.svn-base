@@ -1,0 +1,61 @@
+section>div{
+    /*border: 1px red solid;*/
+}
+.p_one{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+    height: 40px;
+}
+.p_one>div{
+    float: left;
+  /*  border: 1px red solid;*/
+}
+.p_one>div:nth-child(1){
+     width: 35%;
+}
+.p_one>div:nth-child(2){
+    width: 63%;
+    padding-left: 5px;
+}
+.p_one>div:nth-child(2)>span{
+    display: block;
+}
+.p_one>div:nth-child(2)>span:nth-child(1){
+    font-size: 15px;
+    font-weight: bold;
+}
+.p_one>div:nth-child(2)>span:nth-child(2){
+    line-height: 22px;
+}
+.p_one em{
+    color: red;
+}
+.p_one img{
+    width: 35px;
+    float: right;
+}
+.p_two{
+    padding: 20px 0 3px 10px;
+}
+.p_thr{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.p_thr img{
+    width: 45%;
+    height: 45px;
+    margin-right: 4%;
+}
+.p_for{
+    text-align: center;
+    margin-top: 25px;
+}
+.p_for>button{
+    background-color: #FF8C11;
+    border-radius: 5px;
+    height: 35px;
+    width: 90%;
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,81 @@
+/* CSS Document */
+
+.main_login>div{
+    /* border: 1px red solid;*/
+    width: 94%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 10px;
+
+}
+.main_login>div:nth-child(1){
+    margin-top: 25px;
+}
+/*
+.main_login>div:nth-child(2){
+    margin-top: 10px;
+}
+.main_login>div:nth-child(3){
+    background-color: #ebebeb;
+    text-align: right;
+    margin-top: 20px;
+    height: 25px;
+}
+.main_login>div:nth-child(4){
+    background-color: #23c8bf;
+    text-align: center;
+}*/
+.main_login>div:nth-child(5){
+    margin-top: 25px;
+    background-color: #23c8bf;
+    text-align: center;
+}
+.main_login>div:nth-child(5)>span{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.main_login>div>div{
+    border-right: 1px #d7d7d7 solid;
+    width: 24%;
+    height: 16px;
+    float: left;
+    margin-top: 12px;
+    /* text-align: center;*/
+}
+.main_login>div:nth-child(1)>input{
+    width: 40%;
+}
+.main_login>div:nth-child(1)>div:nth-child(3){
+    float: right;
+    border: 0;
+    color: red;
+    font-size: 13px;
+    /* right: 9px; */
+    margin-right: 8px;
+    width: 80px;
+}
+
+.main_login>div:nth-child(4)>div{
+    width: 36%;
+}
+.main_login>div>div>span{
+    font-size: 17px;
+    line-height: 17px;
+    margin-left: 13px;
+}
+
+.main_login>div>input{
+    /*  border: 1px red solid;*/
+    /* float: right; */
+    line-height: 30px;
+    width: 60%;
+    /* margin: auto 0; */
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+

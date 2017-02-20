@@ -1,0 +1,15 @@
+ul>li{
+    background-color: #ffffff;
+    margin: 10px;
+    height: 40px;
+}
+li>span{
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 40px;
+}
+li>img{
+    float: right;
+    width: 40px;
+    display: block;
+}

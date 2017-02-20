@@ -1,0 +1,24 @@
+li{
+    background-color: #ffffff;
+}
+li>div{
+    margin: 10px 0 0 10px;
+    border-bottom: 1px #CCC8C3 solid;
+    padding: 10px 10px 10px 0;
+    min-height: 20px;
+}
+li>div>span{
+    float: left;
+    line-height: 17px;
+}
+li>div>img{
+    float: right;
+    width: 8px;
+    margin-top: 2px;
+}
+.margintop0{
+    margin-top:0;
+}
+.marginbottom0{
+    border-bottom: 0;
+}

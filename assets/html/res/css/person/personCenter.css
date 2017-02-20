@@ -1,0 +1,84 @@
+body{
+    /*font-family: "黑体";*/
+    font-family: "方正中等线";
+}
+
+ul{
+    height: 518px;
+    overflow: auto;
+}
+
+li{
+    background-color: #ffffff;
+}
+
+.p_com{
+    /*border-bottom: 1px #CCC8C3 solid;*/
+    margin: 10px 0 0 10px;
+    padding: 10px 10px 10px 0;
+    min-height: 20px;
+}
+
+.p_com>span,.p_com>input{
+    float: right;
+}
+
+.p_com>img{
+    float: right;
+    width: 8px;
+    margin-top: 2px;
+}
+ul>li:nth-child(1)
+{
+	
+	margin-top:-10px;
+}
+ul>li
+{
+	
+	margin-top:-2px;
+}
+ul>li:nth-child(1)>div>img{
+    float: left;
+    width: 60px;
+    /* border: 1px red solid; */
+    border-radius: 30px;
+    margin-top: 0;
+
+}
+
+.p_com>span:nth-child(1){
+    font-size: 15px;
+    float: left;
+    line-height: 20px;
+}
+
+.first{
+    height: 60px;
+}
+
+.first>span:nth-child(1){
+    line-height: 60px;
+    float: right;
+}
+
+.p_com>span:nth-child(3){
+    color: #777570;
+    line-height: 17px;
+    margin-right: 5px;
+}
+
+.p_com>input{
+    text-align: right;
+    line-height: 20px;
+    margin-right: 5px;
+    width: 130px;
+}
+
+.margintop0{
+    margin-top:0;
+}
+
+.marginbottom0{
+    border-bottom: 0;
+}

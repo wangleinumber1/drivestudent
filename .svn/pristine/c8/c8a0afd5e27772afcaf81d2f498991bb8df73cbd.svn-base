@@ -1,0 +1,18 @@
+ul>li{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+ul>li>div{
+    height: 20px;
+}
+ul>li>div>span{
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+}
+ul>li>div>img{
+    float: right;
+    width: 7px;
+    margin-top: 3px;
+}

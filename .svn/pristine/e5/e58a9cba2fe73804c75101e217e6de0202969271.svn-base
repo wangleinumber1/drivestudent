@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.share-song{
+	font-size:1.3em ;
+}
+.share-big{
+	background-color: white;
+	width: 90%;
+	height: 30%;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.share-big>textarea{
+	width: 96%;
+	height: 96%;
+	border-radius: 5px;
+	text-align: left;
+	line-height: 25px;
+	color: #ADADAD;
+	padding: 5px;
+	font-size: 1.3em;
+	resize:none;
+}
+.share-Where{
+	margin-top: 20%;
+	width: 100%;
+	height: auto;
+}
+.newtime-share{
+	width: 100%;
+	font-size: 1.2em;
+	color: #646464;
+	font-weight:bold ;
+	font-family: cursive;
+	margin-left: 10px;
+}
+.share-lst{
+	margin-top: 10px;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+.share-lst>li{
+	width: 25%;
+	float: left;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+}
+.share-lst>li:nth-child(1){
+	background-image: url(../../img/share-friends.png);
+}
+.share-lst>li:nth-child(2){
+	background-image: url(../../img/weixing.png);
+}
+.share-lst>li:nth-child(3){
+	background-image: url(../../img/xinlan.png);
+}
+.share-lst>li:nth-child(4){
+	background-image: url(../../img/QQ.png);
+}

@@ -1,0 +1,107 @@
+.main_login>div:nth-child(1)>img{
+    width: 100%;
+    display: block;
+}
+.pt_button{
+    position: absolute;
+    bottom: 0;
+    background-color: #23c8bf;
+    height: 50px;
+    width: 100%;
+}
+.pt_button>div{
+    float: left;
+    width: 49%;
+    height: 30px;
+    text-align: center;
+
+}
+.pt_button>div:nth-child(1){
+    border-right: 1px #ffffff solid;
+}
+.pt_button>div{
+    margin-top: 10px;
+}
+.pt_button>div>span{
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+
+.ad_mid{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.ad_mid_one{
+    border-bottom: 1px #ebebeb solid;
+    padding-bottom: 10px;
+}
+.ad_mid_one>div:nth-child(2)>span{
+    line-height: 17px;
+}
+.ad_mid_one>div:nth-child(2) em{
+    font-size: 21px;
+}
+.ad_mid_one>div:nth-child(2)>span:nth-child(3){
+    float: right;
+    font-size: 18px;
+}
+.ad_mid>div:nth-child(2){
+    margin-top: 10px;
+    line-height: 22px;
+}
+.ad_mid>div:nth-child(2)>p{
+    font-size: 15px;
+}
+
+
+.ad_wrap{
+    position: relative;
+}
+#adWrap{
+    overflow: hidden;
+}
+.ad_wrap ul{
+    overflow: hidden;
+    width: 400%;
+}
+.ad_wrap li{
+    float: left;
+    width: 25%;
+}
+.ad_wrap img{
+    display: block;
+    width: 100%;
+    height: 175px;
+}
+.ad_btn_wrap{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+}
+.ad_btn_wrap a{
+   /* display: block;
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #888888;*/
+    width: 10px;
+    height: 10px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.ad_btn_wrap a:nth-child(1){
+    background: black;
+    margin-left: 40%;
+}
+.ad_btn_wrap a:nth-child(2){
+    margin-left: 2%;
+}
+.ad_btn_wrap a:nth-child(3){
+    margin-left: 2%;
+}
+.ad_btn_wrap a:nth-child(4){
+    margin-left: 2%;
+}

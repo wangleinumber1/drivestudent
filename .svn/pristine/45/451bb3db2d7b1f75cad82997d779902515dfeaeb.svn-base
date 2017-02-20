@@ -1,0 +1,26 @@
+.td_content{
+    margin: 10px ;
+    padding: 10px;
+    background-color: #ffffff;
+}
+p{
+    line-height: 20px;
+}
+.td_content span{
+    font-size: 15px;
+}
+
+.td_oprate>div{
+    width: 49%;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+.td_oprate>div>button{
+    width: 80%;
+    background-color: #23c8bf;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 2px;
+    color: #ffffff;
+}

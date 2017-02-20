@@ -1,0 +1,107 @@
+
+.margintop10{
+    margin-top:10px ;
+}
+#scrollInner>div{
+    background-color: #ffffff;
+}
+#scrollInner>div>div{
+    padding: 5px 10px;
+    border-bottom: 1px #CCC8C3 solid;
+}
+#scrollInner>div>div:nth-child(1)>span:nth-child(1){
+    color: #83807B;
+    font-size: 14px;
+}
+#scrollInner>div>div:nth-child(2)>p{
+    display: block;
+    margin: 5px 0;
+}
+#scrollInner>div>div:nth-child(2)>p>span{
+}
+.ds_one>img{
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+.ds_thr>div:nth-child(2)>div{
+    text-align: center;
+    min-height: 30px;
+    margin: 10px 0;
+   /* border: 1px red solid;*/
+}
+.ds_thr>div:nth-child(2)>div>span{
+   /* border: 1px red solid;*/
+    /*width:29.3%;*/
+    width:30%;
+    display: block;
+    float: left;
+    margin-right: 5%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #FFB300;
+    box-shadow: 0 0 5px #BAB4A8;
+}
+.ds_thr>div:nth-child(2)>div>span:nth-child(3){
+    margin-right: 0;
+}
+
+.ds_fou>div:nth-child(1)>span:nth-child(2){
+    float: right;
+    font-size: 12px;
+    color: #CAC6C1;
+}
+.ds_fou li>div:nth-child(1){
+    min-height: 40px;
+}
+.ds_fou li>div:nth-child(1)>span:nth-child(2){
+    float: left;
+    line-height: 40px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.ds_fou li>div:nth-child(1)>span:nth-child(3){
+    float: right;
+    line-height: 40px;
+}
+.ds_fou li>div:nth-child(1)>img{
+    float: left;
+    width: 40px;
+    border-radius: 5px;
+}
+.ds_fou ul{
+    padding: 0 10px 10px;
+}
+.ds_fou li{
+    border-bottom: 1px #CCC8C3 solid;
+    margin: 10px 0;
+}
+.ds_fou li:last-child{
+    border-bottom:0;
+}
+.ds_fou li>div{
+    /*border: 1px red solid;*/
+    margin-bottom: 5px;
+}
+.ds_fou li>div:nth-child(2)>span{
+    display: block;
+    float: left;
+}
+.ds_fou li>div:nth-child(2)>img{
+    width: 15px;
+}
+
+.ds_fif{
+    padding-top: 20px;
+    text-align: center;
+}
+.ds_fif>button{
+    width: 100%;
+    height: 40px;
+   /* border: 1px red solid;*/
+    border-radius: 5px;
+    background-color: #23c8bf;
+    color: #ffffff;
+    font-size: 20px;
+}

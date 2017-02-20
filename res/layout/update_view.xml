@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="10dip" >
+
+    <ProgressBar
+        android:id="@+id/update_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/barprogress" />
+
+    <TextView
+        android:id="@+id/update_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_bar"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="3dp"
+        android:text="0kb/"
+        android:textColor="@android:color/white"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/update_data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/update_data"
+        android:layout_toRightOf="@id/update_data"
+        android:text="0kb"
+        android:textColor="@android:color/white"
+        android:textSize="20dip" />
+    
+    
+    <TextView
+        android:id="@+id/update_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/update_data"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="0%"
+        android:textColor="@android:color/white"
+        android:textSize="20dip" />
+    
+    
+    <Button 
+        android:id="@+id/update_cancelBt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/update_data2"
+        android:text="取消"/>
+
+</RelativeLayout>

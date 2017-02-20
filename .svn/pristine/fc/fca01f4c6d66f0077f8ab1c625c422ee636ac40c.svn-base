@@ -1,0 +1,41 @@
+.main_login>div:nth-child(1)>img{
+    width: 100%;
+    display: block;
+}
+.main_login>div:nth-child(2){
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 25px 15px;
+    height: 45px;
+}
+.main_login>div:nth-child(2)>div>span{
+    float: left;
+    display: block;
+    font-size: 15px;
+}
+.main_login>div:nth-child(2)>div>span:nth-child(1){
+    width: 26%;
+}
+.main_login>div:nth-child(2)>div>span:nth-child(2){
+    width: 74%;
+}
+
+
+ul>li{
+    background-color: #ffffff;
+    margin: 10px;
+    height: 40px;
+}
+li>span{
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 40px;
+}
+li>span>em{
+    font-size: 15px;
+}
+li>img{
+    float: right;
+    width: 40px;
+    display: block;
+}

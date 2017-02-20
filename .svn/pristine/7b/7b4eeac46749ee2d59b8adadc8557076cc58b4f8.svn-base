@@ -1,0 +1,27 @@
+.tc_main{
+   /* border: 1px red solid;*/
+    height: 65px;
+}
+.tc_main>div{
+    padding-top:25px ;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+}
+.tc_main img{
+    width: 40px;
+}
+.tc_mainspan{
+    border-bottom: 1px #CCC8C3 solid;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.tc_mainspan>span{
+    float: left;
+    display: block;
+    width: 33.3%;
+}
+.tc_mainspan:last-child{
+    border-bottom:0;
+}

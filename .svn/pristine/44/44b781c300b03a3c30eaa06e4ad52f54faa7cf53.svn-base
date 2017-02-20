@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+/*================公共样式===============*/
+*{font-size: 14px;
+  margin:0;
+  padding:0;
+  border:0;
+  list-style:none;
+  -webkit-tap-highlight-color:rgba(255,0,0,0);
+  /*overflow: hidden;*/
+   /*font-family: "微软雅黑";*/
+  font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+}
+html,body{
+    width:100%;
+    height:100%;
+    -webkit-text-size-adjust:100%;
+     text-size-adjust:100%;
+	 -webkit-tap-highlight-color:rgba(255,0,0,0);
+   background:#ededed;
+   overflow: hidden;
+   font-family: "方正中等线";
+}
+
+.hide{display:none!important;}
+
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:12px;
+}
+body {
+    margin:0 auto;
+    font-size:12px;
+    font-family:Verdana;
+}
+body,html{height:100%;}
+ul, dl, dd, h1, h2, h3, h4, h5, h6, form, p {
+    padding:0;
+    margin:0;
+}
+ul,li {
+    list-style:none;
+}
+img {
+    border:none;
+}
+em{
+    font-style: normal;
+}
+a {
+    color:#444;
+    text-decoration:none;
+}
+.main_login{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.main_home{
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 50px 0 0;
+}
+.index_main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 0 50px;
+}
+.con_main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 50px 0;
+}
+/*a:hover {
+    color:#f00;
+}*/
+/*.margin0Auto {
+    margin:0 auto;
+}
+.floatLeft {
+    float:left
+}
+.floatRight {
+    float:right
+}*/
+/* 兼容的清除浮动 */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+    display: block;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+/* *倪杰修改所有文字首字母缩进一个字符**
+p{
+    text-indent: 2em;
+} */
+strong{
+     font-family: "微软雅黑";
+    font-size:16px;
+}
+
+/*=========头部=========*/
+header{
+    position: absolute;
+    background-color: #23c8bf;
+    width: 100%;
+    height: 50px;
+    top:0;
+    left:0;
+    z-index: 999;
+    font-family: "微软雅黑";
+}
+header>div{
+    float: left;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+}
+header>.h_left{
+    width: 15%;
+}
+header>.h_left>img{
+    margin: auto;
+    display: block;
+    padding-top: 11px;
+    width:15px;
+}
+header>.h_center{
+    width: 70%;
+    display: inline-block;
+    font-size: 1.3em;
+}
+header>.h_search{
+    display: none;
+    width: 85%;
+}
+header>.h_search>input{
+    width: 85%;
+    height: 36px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 7px;
+}
+header>.h_search>div{
+     float: left;
+     width: 15%;
+ }
+header>.h_search>div>img{
+    width: 15px;
+    margin-top: 11px;
+}
+header>.h_right{
+    width: 15%;
+    /*padding-top: 3px;*/
+}
+header>.h_right>img{
+    width: 22px;
+    margin-top: 14px;
+}
+/*========头部结束=======*/
+
+
+
+/*=====底部（footer）======*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /*background: rgba(255, 255, 255, 0.9);*/
+    background: #38393b;
+    /*border-top:1px solid #c6b084;*/
+    border-top: 1px solid #8E794D;
+
+}
+footer nav {
+    float: left;
+    width: 20%;
+    height: 50px;
+    background: url(../../res/img/foot_h.png) center  no-repeat;
+    background-size: 100% 100%;
+}
+footer nav.hover{
+    background: url(../../res/img/foot_b_h.png) center  no-repeat;
+    background-size: 100% 100%;
+}
+footer span {
+    display: block;
+    color:#8d8d8d;
+}
+footer span:nth-child(1) {
+    height: 30px;
+}
+footer span:nth-child(2) {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+
+footer .btn1 {
+    background: url(../../res/img/foot_1.png) center bottom no-repeat;
+}
+footer .hover .btn1 {
+    background: url(../../res/img/foot_1_h.png) center bottom no-repeat;
+}
+footer .btn2 {
+    background: url(../../res/img/foot_2.png) center bottom no-repeat;
+}
+footer .hover .btn2 {
+    background: url(../../res/img/foot_2_h.png) center bottom no-repeat;
+}
+footer .btn3 {
+    background: url(../../res/img/foot_3.png) center bottom no-repeat;
+}
+footer .hover .btn3 {
+    background: url(../../res/img/foot_3_h.png) center bottom no-repeat;
+}
+footer .btn4 {
+    overflow: hidden;
+    background: url(../../res/img/foot_4.png) center bottom no-repeat;
+}
+footer .hover .btn4 {
+    background: url(../../res/img/foot_4_h.png) center bottom no-repeat;
+}
+footer .btn5 {
+    overflow: hidden;
+    background: url(../../res/img/foot_5.png) center bottom no-repeat;
+}
+footer .hover .btn5 {
+    background: url(../../res/img/foot_5_h.png) center bottom no-repeat;
+}
+footer span[class^="btn"]{
+    background-size:auto 25px;
+}
+footer .hover span[class^="btn"]{
+    background-size:auto 25px;
+}
+footer .hover span {
+    color: #bfa971;
+}
+/*======底部（footer）结束=====*/
+
+.alert{
+    position: absolute;
+    width: 100%;
+    bottom:15%;
+    height: 40px;
+    text-align: center;
+}
+.alert>span{
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #918585;
+}
+/*遮罩层*/
+.bg {
+    /*display: none;*/
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1000;
+    -moz-opacity: 0.7;
+    opacity: .70;
+    filter: alpha(opacity=70);
+}

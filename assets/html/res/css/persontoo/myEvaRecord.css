@@ -1,0 +1,36 @@
+ul>li{
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+li>div{
+  /*  border: 1px red solid;*/
+}
+span{
+    font-size: 15px;
+    color: #C9C6C0;
+}
+li>div:nth-child(1){
+    height: 20px;
+}
+li>div:nth-child(1)>span:nth-child(1){
+     float: left;
+ }
+li>div:nth-child(1)>span:nth-child(2){
+    float: right;
+}
+li>div:nth-child(2)>span{
+    line-height: 30px;
+    float: left;
+}
+li>div:nth-child(2)>img{
+    width: 30px;
+    margin-right: 10px;
+}
+li>div:nth-child(3)>span{
+    display: block;
+    font-size: 14px;
+}
+li>div:nth-child(3)>span:nth-child(1){
+    line-height: 25px;
+}

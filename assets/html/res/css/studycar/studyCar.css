@@ -1,0 +1,128 @@
+header>.h_right>img.hover{
+    width: 28px;
+    margin-top: 12px;
+}
+
+.h_center>span{
+    position: absolute;
+    float: right;
+    /*margin-right:0;*/
+    width: 40px;
+    right: 18%;
+}
+.main_studycar{
+    /*border: 1px red solid;*/
+    position: absolute;
+    top:80px;
+    bottom: 50px;
+    /*overflow: hidden;*/
+    width: 100%;
+    overflow: auto;
+}
+.sc_title{
+    /*border: 1px red solid;*/
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    padding: 5px 0;
+}
+.sc_title>div{
+    border-right: 1px red solid;
+    float: left;
+    width: 33.1%;
+    text-align: center;
+   /* height: 15px;*/
+}
+.sc_title>div>span{
+    font-size: 14px;
+    line-height: 20px;
+}
+.sc_title>div>span>img{
+   width: 10px;
+}
+.sc_title>div:last-child{
+    border-right:0;
+}
+.sc_title>div>span>img.sort{
+    -webkit-transform:rotate(-180deg);
+}
+.sc_droplist{
+    margin-top: 80px;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+}
+.sc_droplist>span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+
+ul{
+}
+ul>li{
+    background-color: #ffffff;
+    padding: 10px 10px 0 10px;
+}
+.sc_li{
+    border-bottom: 1px #CCC8C3 solid;
+    min-height: 60px;
+    padding-bottom: 10px;
+}
+.sc_li>div{
+    float: left;
+   /* border: 1px red solid;*/
+}
+.sc_li>div:nth-child(1){
+    width: 20%;
+}
+.sc_li>div:nth-child(2){
+    width: 45%;
+    padding-left: 8px;
+}
+.sc_li>div:nth-child(3){
+    float: right;
+    width: 30%;
+    padding-top: 5px;
+}
+.sc_li>div:nth-child(3)>span{
+    display: block;
+}
+.sc_li>div:nth-child(3)>span:nth-child(1){
+    font-size: 17px;
+    color: #23c8bf;
+    text-align: center;
+    line-height: 20px;
+}
+.sc_li>div:nth-child(3)>span:nth-child(2){
+    border: 1px #FF9D00 solid;
+    text-align: center;
+    height: 27px;
+    border-radius: 5px;
+    line-height: 27px;
+    color: #FF9D00;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.sc_li>div:nth-child(1)>img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.sc_li_two>span:nth-child(1){
+    font-size: 14px;
+}
+.sc_li_two>div:nth-child(2){
+    margin: 5px 0;
+}
+.sc_li_two>div:nth-child(2)>img{
+    width: 17px;
+}
+.sc_li_two>div:nth-child(3)>span{
+    color: #CAC6C1;
+}

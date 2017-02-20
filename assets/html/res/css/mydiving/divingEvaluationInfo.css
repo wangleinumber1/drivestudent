@@ -1,0 +1,28 @@
+.de_top{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 30px 10px;
+    border: 1px #D5D6D1 solid;
+}
+.de_top>div{
+   text-align: center;
+}
+.de_top>div>span{
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.main_login>p{
+    margin: 20px;
+}
+.de_bot{
+    text-align: center;
+}
+.de_bot>button{
+    width: 80%;
+    height: 40px;
+    background-color: #00C7E1;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+    color: white;
+}

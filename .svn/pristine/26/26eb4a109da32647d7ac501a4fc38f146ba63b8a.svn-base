@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置dialog的边框角度 -->
+    <!-- 实心 -->
+    <solid android:color="@android:color/background_light" />
+
+    <!-- 描边 -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF6100" />
+    <!-- 圆角 -->
+    <corners android:radius="5dp" />
+
+</shape>

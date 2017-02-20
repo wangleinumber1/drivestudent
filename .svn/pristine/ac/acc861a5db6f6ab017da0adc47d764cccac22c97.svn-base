@@ -1,0 +1,29 @@
+.main_login>div:nth-child(1){
+    margin: 30px 10px;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+.main_login>div:nth-child(1)>input{
+    height: 26px;
+    /* border: 1px red solid; */
+    /* line-height: 26px; */
+    margin-top: 7px;
+    width: 80%;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.main_login>div:nth-child(2){
+    text-align: center;
+    margin-top: 50px;
+}
+.main_login>div:nth-child(2)>button{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #23c8bf;
+    color: white;
+    font-size: 17px;
+}
+#div_sex{height:90px; width:80%; margin-left:10%;}
+#input_sex{width:25px; margin:10px 10px; vertical-align:middle;}

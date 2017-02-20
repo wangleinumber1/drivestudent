@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_tab_normal">#373231</color>
+    <!-- 标题的背景色 -->
+    <color name="bg_title">#23C8BF</color>
+    <!-- 内容的背景色 -->
+    <color name="bg_content">#F0F0F0</color>
+    <color name="transparent">#9000</color>
+    
+    <color name="dati_bg">#FD8B00</color>
+    
+</resources>

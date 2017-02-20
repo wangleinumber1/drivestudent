@@ -1,0 +1,8 @@
+.p_p{
+    margin: 20px 10px 10px;
+}
+p{
+    text-indent: 2em;
+    line-height: 22px;
+}
+.version_btn{height:40px; color:#FFF; line-height:40px;	 border-radius:8px; background-color: #23c8bf;text-align: center; margin:25px 20px;}

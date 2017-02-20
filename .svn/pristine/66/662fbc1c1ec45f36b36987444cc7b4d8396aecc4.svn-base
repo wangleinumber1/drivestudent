@@ -1,0 +1,93 @@
+ul{
+
+}
+ul>li{
+    /*border: 1px red solid;*/
+    min-height: 300px;
+   /* padding-top: 10%;*/
+    padding-top: 20px;
+    float: left;
+}
+ul>li:nth-child(1){
+    width: 5%;
+    padding-left: 10%;
+}
+ul>li:nth-child(1)>div{
+   /* border: 1px red solid;*/
+}
+ul>li:nth-child(1)>div>img{
+    float: left;
+    display: block;
+    height: 92px;
+    width: 15px;
+}
+ul>li:nth-child(1)>div:nth-child(1)>img{
+    height: 15px;
+}
+ul>li:nth-child(2){
+    width: 50%;
+    padding-top: 18px;
+    margin-left: 10%;
+}
+ul>li:nth-child(2)>span>img{
+    float: left;
+    width: 20px;
+    margin-left: 10%;
+}
+ul>li:nth-child(2)>span{
+    width: 100%;
+    display: block;
+    /* border: 1px red solid; */
+    font-size: 16px;
+    margin-top: 71px;
+    color: #83807B;
+}
+ul>li:nth-child(2)>span>em{
+    font-size: 16px;
+    /*color: #006D75;*/
+    color: #CAC6C1;
+    margin-left: 10%;
+}
+ul>li:nth-child(2)>span:nth-child(1){
+    margin-top: 0;
+}
+ul>li:nth-child(3){
+    padding-top: 0px;
+    width: 20%;
+    background: url(../../../res/img/studyprocess/process_b.png) center center no-repeat;
+    background-size: 50% 99%;
+}
+ul>li:nth-child(3)>div{
+    /*border: 1px red solid;*/
+}
+ul>li:nth-child(3)>div{
+    float: left;
+    display: block;
+    height: 90px;
+    width: 45px;
+    /* margin-bottom: 0; */
+    text-align: center;
+    margin-left: 12%;
+    /* background-color: #C8D1CB; */
+    /* margin-left: 10px; */
+}
+ul>li:nth-child(3)>div.hover{
+    margin-left: 12%;
+    background: url(../../../res/img/studyprocess/process_p.png) center 13% no-repeat;
+    background-size: 43px 43px;
+    height: 90px;
+    width: 45px;
+    /* margin-bottom: 13px; */
+}
+ul>li:nth-child(3)>div>span{
+    display: block;
+    line-height: 55px;
+    color: #83807B;
+}
+ul>li:nth-child(3)>div:last-child{
+    height: 55px;
+}
+ul>li:nth-child(3)>div>img{
+    width: 45px;
+    height: 35px;
+}

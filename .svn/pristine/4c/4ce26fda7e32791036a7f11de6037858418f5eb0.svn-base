@@ -1,0 +1,156 @@
+*{
+    overflow: hidden;
+}
+
+.main_home {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.h-details {
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
+}
+.this-title {
+	width: 100%;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	font-size: 1.2em;
+	color: #000000;
+	font-family: monospace;
+	font-weight: bold;
+}
+.h-auther {
+	width: 100%;
+	height: 20px;
+	float: left;
+	line-height: 16px;
+	font-size: 1.2em;
+	font-family: monospace;
+	margin-bottom: 5px;
+}
+.h-auther>.auther-left {
+	float: left;
+	height: 100%;
+	font-size: 0.8em;
+	line-height: 18px;
+	color: #787878;
+}
+.h-auther>.time-right {
+	float: right;
+	height: 100%;
+	font-size: 0.8em;
+	line-height: 18px;
+	color: #787878;
+}
+.img-show {
+	width: 100%;
+	height: 150px;
+	margin: 5px 0px;
+}
+.img-show>img {
+	width: 100%;
+	position: relative;
+	z-index: 100;
+}
+.showimglst {
+	background-color: black;
+	position: relative;
+	z-index: 110;
+	float: right;
+	bottom: 83px;
+	width: 80px;
+	height: 25px;
+	right: 10px;
+	opacity: 0.3;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+.h-alue {
+	width: 95%;
+	height: auto;
+	padding: 5px;
+}
+.h-alue>p {
+	font-size: 1.2em;
+	color: #464646;
+	line-height: 23px;
+}
+.md_foot{
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    background-color: #23C8BF;
+    width: 100%;
+    height: 50px;
+}
+.md_foot>ul>li{
+    float: left;
+    width: 20%;
+    text-align: center;
+
+}
+.md_foot>ul>li>span{
+    color: white;
+    font-size: 14px;
+    border-right: 1px white solid;
+    display: block;
+    height: 15px;
+    margin-top: 16px;
+}
+.md_foot>ul>li:last-child>span{
+    border-right: 0;
+}
+
+.buttom-desc {
+	/*margin-top: 20px;*/
+	width: 100%;
+	height: 50px;
+	background-color: #23C8BF;
+	background-image: url(../../img/buttom-desc.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.md_foot {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	background-color: #23C8BF;
+	width: 100%;
+	height: 50px;
+}
+.b-lst{
+	width: 100%;
+	height: 100%;
+}
+.b-lst>li{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.hd_share{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    z-index: 1001;
+    background-color: white;
+    text-align: center;
+}
+.hd_share>div{
+    float: left;
+    width: 25%;
+}
+.hd_share>div>img{
+    width: 70%;
+}
+

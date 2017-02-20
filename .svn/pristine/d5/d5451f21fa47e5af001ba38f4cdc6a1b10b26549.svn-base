@@ -1,0 +1,16 @@
+.p_content {
+    background-color: #ffffff;
+    margin: 20px 10px 0;
+    border-radius: 5px;
+    height: 180px;
+    padding-top: 5px;
+}
+
+.p_content > textarea {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    height: 155px;
+    color: #C9C6C0;
+}

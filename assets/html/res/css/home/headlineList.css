@@ -1,0 +1,17 @@
+@charset "utf-8";
+.h_left{
+	background-image: none;
+}
+.Information-lst {
+	height: 71%;
+}
+@media screen and (max-height: 500px) {
+	.Information-lst {
+		height: 65%;
+	}
+}
+@media screen and (max-height: 650px) {
+	.Information-lst {
+		height: 76%;
+	}
+}
